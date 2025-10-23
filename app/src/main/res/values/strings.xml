@@ -1,5 +1,8 @@
 <resources>
-
-
-
+    <string name="app_name">MY UIPertama</string>
+    <string name="prodi">Teknologi Informasi</string>
+    <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
+    <string name="nama">Zahwa Anritia</string>
+    <string name="alamat">Ngebel, Kasihan</string>
+    <string name="copy">copyright, 2025</string>
 </resources>
