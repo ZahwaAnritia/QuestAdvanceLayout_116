@@ -65,7 +65,5 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
         }
 
     }
-
-
 }
 
