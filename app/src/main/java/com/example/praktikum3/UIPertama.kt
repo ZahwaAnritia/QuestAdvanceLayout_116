@@ -99,7 +99,7 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                     Text(
                         text = stringResource(id = R.string.nim),
                         fontSize = 20.sp,
-                        color = Color.White,
+                        color = Color.Yellow,
                         modifier = Modifier.padding(top = 5.dp)
                     )
                     Text(
@@ -141,7 +141,7 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                     Text(
                         text = stringResource(id = R.string.nim),
                         fontSize = 20.sp,
-                        color = Color.White,
+                        color = Color.Yellow,
                         modifier = Modifier.padding(top = 5.dp)
                     )
                     Text(
@@ -150,13 +150,8 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                         color = Color.Yellow,
                         modifier = Modifier.padding(top = 5.dp)
                     )
-
-
-
                 }
             }
-
-
         }
 
         Box(
