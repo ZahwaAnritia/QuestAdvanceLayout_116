@@ -43,7 +43,7 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             )
         ) {
             Row {
-                val gambar = painterResource(id = R.drawable.download)
+                val gambar = painterResource(id = R.drawable.umy)
                 Image(
                     painter = gambar,
                     contentDescription = null,
@@ -70,6 +70,17 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                 }
             }
         }
+        Card(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(all = 12.dp),
+            colors = CardDefaults.cardColors(
+                containerColor = Color(0xFF0000FF)
+            )
+        ){
+
+        }
+
         Box(
             modifier = Modifier
                 .fillMaxSize()
