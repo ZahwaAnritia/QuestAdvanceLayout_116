@@ -79,7 +79,7 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             )
         ) {
             Row {
-                val gambar = painterResource(id = R.drawable.download)
+                val gambar = painterResource(id = R.drawable.umy)
                 Image(
                     painter = gambar,
                     contentDescription = null,
@@ -88,6 +88,9 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                         .padding(all = 5.dp)
                 )
                 Spacer(modifier = Modifier.width(30.dp))
+                Column{
+
+                }
             }
         }
 
